@@ -1,0 +1,140 @@
+
+
+header {
+position: sticky;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+background-color:#faefdd;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+border-radius: 25px; ;
+flex-wrap: wrap;
+top: 0;
+width: 97.9%;
+}
+.logo-icon 
+{
+    width: 65px;
+    height: 65px;
+    background-image: url("Photo/WeeB.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sign-in 
+{
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+padding: 8px 16px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+
+
+.footer {
+  background-color: #faefdd;
+  color: #000000;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.socialicons a {
+  margin: 0 10px;
+  
+}
+
+.footerlinks {
+  display: flex;
+  gap: 40px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.footerlinks div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerlinks a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.footerlinks a:hover {
+  text-decoration: underline;
+}
+
+.storebuttons img {
+  height: 40px;
+  margin: 0 10px;
+    margin: 20px 0;
+
+}
+
+.footerbottom {
+  border-top: 1px solid #000000;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.bottom-links a {
+  color: #000000;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.bottom-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.Coun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.CO {
+  border-radius: 20px;
+  max-width: 700px;
+}
+
+.CO img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  color: #2e2e2e;
+  margin: 20px auto;
+  padding: 15px 20px;
+  background-color: #fff7ee;
+  border-radius: 12px;
+  max-width: 800px;
+  text-align: left;
+}

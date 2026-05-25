@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="Check.css" />
+  <title>Reservation</title>
+</head>
+<body>
+  <div class="booking-card">
+    <div class="price-section">
+    <p><strong><u> 138JD</u><sub> for 1 Nights</sub></strong></p>
+    </div>
+<form action="">
+    <div class="date-section">
+      <div class="check-in">
+        <label>CHECK-IN</label>
+        <input type="date" value="2025-06-02" />
+      </div>
+      <div class="check-out">
+        <label>CHECKOUT</label>
+        <input type="date" value="2025-06-05"/>
+      </div>
+    </div>
+
+    <div class="guests">
+        <label>Select travelers</label>
+            <div class="guest-inputs">
+                <label>Adults</label>
+                <input type="number" min="1" value="1" />
+                <label>Children</label>
+                <input type="number" min="0" value="0" />
+                <label>Infants</label>
+                <input type="number" min="0" value="0" />
+    </div>
+    
+    </div>
+    </form>
+    <button class="reserve-btn" onclick="showMessage();">Reserved</button>
+    <script>
+    function showMessage() {
+        alert("Your Reserved successfully !");
+    }
+</script>
+</div>
+</body>
+</html>
