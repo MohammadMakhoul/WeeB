@@ -30,9 +30,9 @@ Through building this project, I improved my understanding of:
 - Front-end development fundamentals
 - Responsive web design
 - CSS layouts and styling
-- JavaScript DOM manipulation
+- JavaScript 
 - Debugging and problem-solving
-- Project organization and structure
+
 
 ## 🎯 Purpose
 
